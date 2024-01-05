@@ -1,0 +1,8 @@
+The common knowledge in MTG is that using more mana is better and leads to wins, so I wanted to make sure that the game data reflected this. This notebook outputs a ratio of times a player spent the most mana and also won a game compared to all games.
+This notebook uses Replay Data from 17Lands.com. It also only observes the first 9 turns of the game, since that is a general average of game length. 
+Questions this brought up:
+  -How does this ratio change by set?
+  -If the ratio does change significantly by set, how does the change in ratio relate to format speed, or win-rate vs. going first, since going first lets you use mana first?
+  -Does anything change if we take turns past turn 9 into account?
+  -How does total mana spent where the winning player won map to colors and strategies? For example, when the winning player used more land, but the total land they spent was fairly small, does that indicate an         aggressive deck?
+  -Using less mana can be a result of mosty two things: either missing a land drop per turn, or not casting spells that use up all possible mana. Which one is more influential? On which turn?
