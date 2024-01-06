@@ -1,0 +1,19 @@
+This notebook analyzes win rates classified by land drops missed in the first 8 turns. The question is "Which of the first 8 land drops is the most devastating to miss?"
+
+Notable:
+-The most relevant drop in win rate seems to be around missing the third land drop. 
+-There are games where players missed their first land drop, which leads me to believe something might have gone wrong
+-Players frequently hit all of their land drops before the game is over or the first 8 turns, which seems unlikely, or a sign that something is wrong
+-hitting all land drops in the first five turns got a win ratio of about .57, and missing lands almost universally falls off from there. Getting to five mana fast is ideal, after that you're probably drawing lands when you want spells
+-missing turn 4 land drop has around a .50 win rate. Hitting your first 4 lands in the first 5 turns helps give you a 50% shot at the win, but doesn't solve everything for you.
+
+Questions:
+-how do these ratios of win rate by land drop missed change by format? For example, in Khans block, I'd expect missing turn 3 to be even more devastating
+-what's going on where people are winning after missing the first land drop? Were these just extremely low-curve decks? Players simply forgetting to play their land?
+-This code is based on the idea that "NaN" in the column "{player_prefix}_turn_{i}_lands_played" represents missing a land drop, is this a fair assumption?
+-how can we display this graphically?
+-what number of lands in a deck is most likely to get you to an optimum number of land drops for the best possible win rate?
+-how do things change is we segregate by color/archetype? Do some archetypes perform better at different missed lands drops?
+-how do we account for games that end before turn 8, and how that might change the data?
+-how influential is the second missed land drop, on which turn? For example, if I miss turn 3 AND 4, that's terrible, but if I miss turns 6 and 7 that's pretty beneficial. 
+-how does missing a land drop compare to not using mana? Is it worse to miss the turn 3 land drop, or to miss the three drop?
