@@ -1,0 +1,6 @@
+Here we're looking at the impact on win rate from not maximizing given turns in the first 5 turns of the game, meaning "using all possible mana for a given turn". Basically 1 mana on one, 2 mana on two, and so on. I looked at the first five turns to see how intensely the opening turns of the game effect the outcome. 
+
+Notes:
+-the largest gap here was "not maximizing turn 1" and "maximizing all turns". Almost as large was the gap btween not maximizing turn 1 and not maximizing turn2. this is surprizing, since the common wisdom has been that 1-drops are not sufficiently influential in limited. However, this idea has been changing, and the data might support that change in opinion. It's certainly more common for people to take turn one "off". 
+-This doesn't account for strategy, so it might be interesting to segregate this by color combination.
+-I ran this analysis on Wilds Of Eldraine data, which had a lot of good one drops. It would be interesting to compare it to the same analysis on Khans of Tarkir, which had very few relevant one-drops
